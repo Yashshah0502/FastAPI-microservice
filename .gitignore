@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# VS Code settings
+.vscode/
+
+# Environment
+.env
+venv/
+ENV/
+env/
+.venv/
+
+# Redis dump files
+dump.rdb
+appendonly.aof
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# React frontend (optional)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Pytest cache
+.pytest_cache/
+.cache/
+
+# mypy
+.mypy_cache/
+
+# Coverage
+htmlcov/
+.coverage
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
