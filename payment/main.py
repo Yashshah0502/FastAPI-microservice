@@ -39,7 +39,7 @@ def get(pk: str):
 
 
 @app.post("/orders")
-async def create(request : Request, background_tasks = BackgroundTasks):
+async def create(request : Request, background_tasks : BackgroundTasks):
     body = await request.json()
 
     req = requests.get('http://localhost:8000/products/%s' % body['id'])
