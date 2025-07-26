@@ -63,3 +63,4 @@ def order_completed(order: Order):
     time.sleep(5)
     order.status = "Completed"
     order.save()
+    redis.xadd('order_completed', order.dict(), '*')
